@@ -8,15 +8,97 @@ h1 {
 
 .flex-container {
   display: flex;
-  flex-direction:  row;
-  flex-wrap:  wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   align-content: space-around;
   gap: 10px;
 }
 
-img {
+#child {
   border: 5px solid black;
 }
 
+#div2 {
+  padding-top: 50px;
+}
+
+.shapes-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+  gap: 1px;
+}
+
+#pad {
+  padding: 25px 25px 25px 25px;
+}
+
+.shape1 {
+  fill: aqua;
+}
+
+.shape1:hover {
+  fill: bisque;
+}
+
+.shape2 {
+  fill: aquamarine;
+}
+
+.shape2:hover {
+  fill: cadetblue;
+}
+
+.shape3 {
+  fill: aqua;
+}
+
+.shape3:hover {
+  fill: bisque;
+}
+
+.shape4 {
+  fill: aquamarine;
+}
+
+.shape4:hover {
+  fill: cadetblue;
+}
+
+.shape5 {
+  fill: aqua;
+}
+
+.shape5:hover {
+  fill: bisque;
+}
+
+.shape6 {
+  fill: aquamarine;
+}
+
+.shape6:hover {
+  fill: cadetblue;
+}
+
+.shape7 {
+  fill: aqua;
+}
+
+.shape7:hover {
+  fill: bisque;
+}
+
+h2 {
+  text-align: center;
+}
+
+.acknowledgements {
+  text-align: center;
+  list-style-position: inside;
+}
