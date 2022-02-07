@@ -16,6 +16,11 @@ h1 {
   gap: 10px;
 }
 
+.flex-container img {
+  width: 500px;
+  height: auto;
+}
+
 #child {
   border: 5px solid black;
 }
