@@ -12,7 +12,6 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  align-content: space-around;
   gap: 10px;
 }
 
@@ -41,62 +40,24 @@ h1 {
 
 #pad {
   padding: 25px 25px 25px 25px;
+  width: 450px;
+  text-align: center;
 }
 
-.shape1 {
-  fill: aqua;
-}
-
-.shape1:hover {
-  fill: bisque;
-}
-
-.shape2 {
-  fill: aquamarine;
-}
-
-.shape2:hover {
+.rect {
   fill: cadetblue;
 }
 
-.shape3 {
+.rect:hover {
+  fill: black;
+}
+
+.circle {
+  fill: antiquewhite;
+}
+
+.circle:hover {
   fill: aqua;
-}
-
-.shape3:hover {
-  fill: bisque;
-}
-
-.shape4 {
-  fill: aquamarine;
-}
-
-.shape4:hover {
-  fill: cadetblue;
-}
-
-.shape5 {
-  fill: aqua;
-}
-
-.shape5:hover {
-  fill: bisque;
-}
-
-.shape6 {
-  fill: aquamarine;
-}
-
-.shape6:hover {
-  fill: cadetblue;
-}
-
-.shape7 {
-  fill: aqua;
-}
-
-.shape7:hover {
-  fill: bisque;
 }
 
 h2 {
