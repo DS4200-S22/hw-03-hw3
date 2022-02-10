@@ -24,7 +24,7 @@ h1 {
 #child {
   border: 5px solid black;
   width: 550px;
-  height: 550px
+  height: 550px;
 }
 
 #div2 {
@@ -43,62 +43,23 @@ h1 {
 
 #pad {
   padding: 20px 20px 20px 20px;
+  text-align: center;
 }
 
-.shape1 {
-  fill: aqua;
-}
-
-.shape1:hover {
-  fill: bisque;
-}
-
-.shape2 {
-  fill: aquamarine;
-}
-
-.shape2:hover {
+.rect {
   fill: cadetblue;
 }
 
-.shape3 {
+.rect:hover {
+  fill: black;
+}
+
+.circle {
+  fill: antiquewhite;
+}
+
+.circle:hover {
   fill: aqua;
-}
-
-.shape3:hover {
-  fill: bisque;
-}
-
-.shape4 {
-  fill: aquamarine;
-}
-
-.shape4:hover {
-  fill: cadetblue;
-}
-
-.shape5 {
-  fill: aqua;
-}
-
-.shape5:hover {
-  fill: bisque;
-}
-
-.shape6 {
-  fill: aquamarine;
-}
-
-.shape6:hover {
-  fill: cadetblue;
-}
-
-.shape7 {
-  fill: aqua;
-}
-
-.shape7:hover {
-  fill: bisque;
 }
 
 h2 {
